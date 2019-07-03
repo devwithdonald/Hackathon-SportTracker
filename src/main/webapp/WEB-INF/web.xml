@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Hackathon-SportTracker</display-name>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.donald.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewAllGamesServlet</display-name>
+    <servlet-name>ViewAllGamesServlet</servlet-name>
+    <servlet-class>com.donald.servlets.ViewAllGamesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewAllGamesServlet</servlet-name>
+    <url-pattern>/ViewAllGamesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewRecentGames</display-name>
+    <servlet-name>ViewRecentGames</servlet-name>
+    <servlet-class>com.donald.servlets.ViewRecentGames</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewRecentGames</servlet-name>
+    <url-pattern>/ViewRecentGames</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddGameServlet</display-name>
+    <servlet-name>AddGameServlet</servlet-name>
+    <servlet-class>com.donald.servlets.AddGameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddGameServlet</servlet-name>
+    <url-pattern>/AddGameServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
